@@ -1,12 +1,14 @@
-/*Estilização do cabeçalho*/
 body {
-    background-color: #666666;
+    background-color: #0b0b24;
 }
+
+/*Estilização do cabeçalho*/
+
 header {
     background: #262f36;
     display: inline-block;
-    margin: auto;
     width: 25%;
+    height: 970px;
 }
 .nome {
     font-size: 24px;
@@ -14,6 +16,7 @@ header {
     text-align: center;
     color: white;
     padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .foto {
     margin-top: 10px;
@@ -23,14 +26,15 @@ header {
     padding: 20px 5px;
 }
 .bem-vindo {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
     color: white;
-    padding: 10px 50px;
+    padding: 20px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .linkedin {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 180px;
 }
 .git {
@@ -40,7 +44,8 @@ header {
     text-align: center;
     font-size: 18px;
     color: white;
-    padding: 20px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Estilização do conteúdo*/
@@ -51,31 +56,101 @@ main {
     bottom: 0;
     left: 26%;
     right: 0;
+    top: 10px;
 }
 .t1 {
     font-size: 40px;
+    font-weight: bold;
     color:white;
     padding: 5px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .resumo {
+    margin-top: 10px;
     font-size: 20px;
     color: white;
     padding: 5px 5px;
-    width: 100%;
+    width: 99%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .botao {
     width: 20%;
     padding: 15px 0;
-    margin: 10px auto;
+    margin: 10px 5px;
     background: #262f36;
     font-weight: bold;
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 1s;
+}
+.botao:hover {
+    transform: scale(1.1);
+}
+.botao-2 {
+    width: 20%;
+    padding: 15px 0;
+    margin: 15px 20px;
+    background: #262f36;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.botao-2:hover {
+    transform: scale(1.1);
 }
 hr {
     width: 100%;
     size: 3px;
+    margin-bottom: 20px;
+}
+
+/*Section 2*/
+
+.parte-2 h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resumo-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+}
+.p-front, .p-back, .p-db, .p-frameworks, .logos {
+    margin: 10px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.front {
+    display: inline-block;
+}
+.back, .db {
+    display: inline-block;
+    margin: 0 200px;
+}
+.front-frameworks {
+    margin-top: 40px;
+    display: inline-block;
+}
+.back-frameworks {
+    display: inline-block;
+    margin-left: 187px;
+}
+.tools {
+    display: inline-block;
+    margin-left: 225px;
 }
