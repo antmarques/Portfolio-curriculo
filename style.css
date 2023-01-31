@@ -74,9 +74,11 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .botao {
+    display: inline-block;
+    float: left;
     width: 20%;
     padding: 15px 0;
-    margin: 10px 5px;
+    margin: 15px 15px;
     background: #262f36;
     font-weight: bold;
     font-size: 20px;
@@ -88,23 +90,6 @@ main {
     transition: 1s;
 }
 .botao:hover {
-    transform: scale(1.1);
-}
-.botao-2 {
-    width: 20%;
-    padding: 15px 0;
-    margin: 15px 20px;
-    background: #262f36;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 1s;
-}
-.botao-2:hover {
     transform: scale(1.1);
 }
 hr {
