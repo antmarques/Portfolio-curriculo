@@ -3,7 +3,7 @@ body {
     background-color: #666666;
 }
 header {
-    background: rgb(38, 47, 54);
+    background: #262f36;
     display: inline-block;
     margin: auto;
     width: 25%;
@@ -67,7 +67,7 @@ main {
     width: 20%;
     padding: 15px 0;
     margin: 10px auto;
-    background: rgb(38, 47, 54);
+    background: #262f36;
     font-weight: bold;
     font-size: 20px;
     color: white;
