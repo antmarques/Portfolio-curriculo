@@ -11,7 +11,6 @@ header {
     background: #262f36;
     display: inline-block;
     width: 25%;
-    height: 60.6rem;
 }
 .nome {
     font-size: 24px;
@@ -22,11 +21,12 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .foto {
+    width: 63.3%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 5rem;
     border-radius: 50%;
-    padding: 20px 5px;
+    padding: 20px 0;
 }
 .bem-vindo {
     font-size: 22px;
@@ -144,29 +144,33 @@ hr {
 
 /*Estilização do rodapé*/
 
-footer {
+.rodape {
+    margin: auto;
+    padding: 70px 0;
     text-align: center;
-    height: 3rem;
-    font-size: 15px;
-    color: white;
+    background: #262f36;
 }
 .copyright {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 1rem;
+    color: white;
+    font-size: 13px;
 }
 
 /*Responsividade para mobile*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
     header {
         width: 100%;
-        height: auto;
     }
     .foto {
-        margin-left: 4rem;
-        padding: 0 0;
+        margin-left: 3rem;
+        width: 80%;
+    }
+    .bem-vindo {
+        font-size: 20px;
+        padding: 1rem 1rem;
     }
     .linkedin {
-        margin-left: 10rem;
+        margin-left: 9rem;
     }
     main {
         margin-top: 1rem;
@@ -174,15 +178,16 @@ footer {
         text-align: center;
     }
     .t1 {
-        font-size: 25px;
+        font-size: 24px;
         text-align: center;
     }
     .resumo, .resumo-2 {
         font-size: 15px;
+        padding: 1rem 1rem;
     }
     .botao {
         font-size: 12px;
-        width: 42%;
+        width: 40%;
     }
     .t2{
         font-size: 25px;
@@ -193,5 +198,8 @@ footer {
     }
     .front-frameworks {
         margin: auto 0;
+    }
+    .rodape {
+        padding: 2rem 0;
     }
 }
