@@ -11,6 +11,7 @@ header {
     background: #262f36;
     display: inline-block;
     width: 25%;
+    margin-bottom: 150px;
 }
 .nome {
     font-size: 24px;
@@ -36,9 +37,8 @@ header {
     padding: 20px 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.linkedin {
-    margin-top: 25px;
-    margin-left: 180px;
+.icons {
+    text-align: center;
 }
 .git {
     margin-left: 10px;
@@ -47,7 +47,8 @@ header {
     text-align: center;
     font-size: 18px;
     color: white;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 33%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -76,6 +77,9 @@ main {
     width: 99%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+form {
+    margin-bottom: 20px;
+}
 .botao {
     float: left;
     width: 20%;
@@ -102,6 +106,11 @@ hr {
 
 /*Section 2*/
 
+.parte-1.parte-2 {
+    margin: 0, auto;
+    width: 100%;
+}
+
 .t2 {
     color: white;
     font-size: 40px;
@@ -125,7 +134,11 @@ hr {
 .front {
     display: inline-block;
 }
-.back, .db {
+.back {
+    margin: 0 99px;
+    display: inline-block;
+}
+.db {
     display: inline-block;
     margin: 0 200px;
 }
@@ -139,16 +152,15 @@ hr {
 }
 .tools {
     display: inline-block;
-    margin-left: 225px;
+    margin-left: 125px;
 }
 
 /*Estilização do rodapé*/
 
 .rodape {
-    margin: auto;
-    padding: 70px 0;
     text-align: center;
     background: #262f36;
+    padding: 20px;
 }
 .copyright {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -157,20 +169,27 @@ hr {
 }
 
 /*Responsividade para mobile*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1500px){
     header {
         width: 100%;
+    }
+    .head {
+        text-align: center;
     }
     .foto {
         margin-left: 3rem;
         width: 80%;
+        
     }
     .bem-vindo {
         font-size: 20px;
         padding: 1rem 1rem;
     }
+    .icons {
+        text-align: center;
+    }
     .linkedin {
-        margin-left: 9rem;
+        margin: 0, auto;
     }
     main {
         margin-top: 1rem;
